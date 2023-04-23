@@ -1,0 +1,13 @@
+prefix=/Users/jyothivishnuvardhankolla/Desktop/End-to-End-ML/venv
+exec_prefix=/Users/jyothivishnuvardhankolla/Desktop/End-to-End-ML/venv
+libdir=/Users/jyothivishnuvardhankolla/Desktop/End-to-End-ML/venv/lib
+sharedlibdir=/Users/jyothivishnuvardhankolla/Desktop/End-to-End-ML/venv/lib
+includedir=/Users/jyothivishnuvardhankolla/Desktop/End-to-End-ML/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
